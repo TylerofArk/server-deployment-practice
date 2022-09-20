@@ -1,34 +1,14 @@
 # LAB - 01: Continuous Integration and Deployment
 
-## Deployment Test
+## Author: Tyler Main
 
-### Author: Tyler Main
+[tests-report](https://github.com/TylerofArk/server-deployment-practice/actions)
 
-- tests report
-- front-end
+## Links and Resources
 
-## Setup
-
-.env requirements
-
-- PORT - 3002
-
-### Running the app
-
-- npm start
-- Endpoint: /status
-
-Returns Object
-
-{
-  "domain": "john-api-server.demo.herokuapp.com",
-  "status": "running",
-  "port": 42123
-}
+[Production Server](https://tlm-server-deploy-prod.herokuapp.com/)
+[Development Server](https://tlm-server-deploy-dev.herokuapp.com/)
 
 #### Tests
 
-- Unit Tests: npm run test
-- Lint Tests: npm run lint
-
-##### UML
+Clone repo, install dependencies and run npm test to run the test suite.
